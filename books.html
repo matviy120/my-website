@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<form>
+<p>Ви можете придбати ці книги на <a href="https://www.amazon.com/"
+target="_blank">Amazon</a>.</p>
+<h2>Відео про книги</h2>
+<video controls width="500" height="300">
+<source src="book_trailer.mp4" type="video/mp4">
+Ваш браузер не підтримує відтворення відео.
+</video>
+<h2>Зворотний зв’язок</h2>
+<form action="submit_form.php" method="post">
+<label for="name">Ім’я:</label>
+<p><input type="text" id="name" name="name" required>
+<label for="email">Електронна пошта:</label>
+<p><input type="email" id="email" name="email" required>
+<label for="age">Вік:</label>
+<p><input type="number" id="age" name="age" min="0" required>
+<label for="message">Повідомлення:</label>
+<p><textarea id="message" name="message" rows="4" required></textarea>
+<button type="submit">Відправити</button>
+</form>
